@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Caribbean Reef Shark",
+    "scientific name": "Carcharhinus Perezii",
+    "image": "caribbean.png"
+  },
+  {
+    "name": "Blue Shark",
+    "scientific name": "Prionace Glauca",
+    "image": "blue.png"
+  },
+  {
+    "name": "Lemon Shark",
+    "scientific name": "Negaprion Brevirostris",
+    "image": "lemon.png"
+  },
+
+
+
+
+
+
+  {
+    "name": "",
+    "scientific name": "",
+    "image": ""
+  }
+]
+
