@@ -1,9 +1,13 @@
+import { NavLink } from "react-router-dom";
+
 function Header() {
   return (
-  <header className="bg-blue-300 p-4">
-    <h1 className="text-left text-3xl">Sharks</h1>
-    <p className="text-left indent-8">there are SO MANY!</p>
-  </header>
+    <header className="bg-blue-300 p-4 flex flex-col justify-left">
+      <a class="w-fit text-3xl" href="/">
+        Sharks
+      </a>
+      <p className="w-fit indent-8">there are SO MANY!</p>
+    </header>
   );
 }
 export default Header;

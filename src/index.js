@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import './index.css';
 import App from './App';
+import SharkInfo from './components/SharkInfo';
+import Gallery from "./components/Gallery";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Routes>
+      <Route path="/" element={<App />}>
+      <Route path="/" element={<Gallery />} />
+        <Route path="/info/:id" element={<SharkInfo />} />
+      </Route>
+    </Routes>
+  </Router>,
   document.getElementById('root')
 );
 

@@ -1,29 +1,84 @@
 [
   {
     "name": "Caribbean Reef Shark",
-    "scientific name": "Carcharhinus Perezii",
+    "scientific_name": "Carcharhinus Perezii",
     "image": "caribbean.png"
   },
   {
     "name": "Blue Shark",
-    "scientific name": "Prionace Glauca",
+    "scientific_name": "Prionace Glauca",
     "image": "blue.png"
   },
   {
+    "name": "Great White Shark",
+    "scientific_name": "Carcharodon Carcharias",
+    "image": "great-white.jpeg"
+  },
+  {
+    "name": "Bull Shark",
+    "scientific_name": "Carcharhinus Leucas",
+    "image": "bull.jpeg",
+    "diet": "mostly bony fishes, but if given the opportunity, will make a meal out of smaller sharks, turtles, birds, crustaceans, and garbage.",
+    "where": "worldwide in shallow tropical and subtropical coastal waters, can go into freshwater"
+  },
+  {
+    "name": "Leopard Shark",
+    "scientific_name": "Triakis Semifasciata",
+    "image": "leopard.jpeg"
+  },  {
+    "name": "Horn Shark",
+    "scientific_name": "Heterodontus Francisci",
+    "image": "horn.jpeg"
+  },
+  {
+    "name": "Sand Tiger Shark",
+    "scientific_name": "Carcharias Taurus",
+    "image": "sand.jpeg"
+  },
+  {
+    "name": "Pyjama Shark",
+    "scientific_name": "Poroderma Africanum",
+    "image": "pyjama.jpg"
+  },
+  {
     "name": "Lemon Shark",
-    "scientific name": "Negaprion Brevirostris",
+    "scientific_name": "Negaprion Brevirostris",
     "image": "lemon.png"
   },
-
-
-
-
-
-
   {
-    "name": "",
-    "scientific name": "",
-    "image": ""
+    "name": "Frilled Shark",
+    "scientific_name": "Chlamydoselachus Anguineus",
+    "image": "frilled.jpeg"
+  },
+  {
+    "name": "Basking Shark",
+    "scientific_name": "Cetorhinus Maximus",
+    "image": "basking.jpeg"
+  },
+  {
+    "name": "Whale Shark",
+    "scientific_name": "Rhincodon Typus",
+    "image": "whale.jpeg"
+  },
+  {
+    "name": "Bahamas Sawshark",
+    "scientific_name": "Pristiophorus Schroederi",
+    "image": "saw.jpeg"
+  },  {
+    "name": "Kitefin Shark",
+    "scientific_name": "Dalatias Licha",
+    "image": "kitefin.jpeg"
+  },  {
+    "name": "Angel Shark",
+    "scientific_name": "Squatina Squatina",
+    "image": "angel.jpeg"
+  },  {
+    "name": "Scalloped Hammerhead Shark",
+    "scientific_name": "Sphyrna Lewini",
+    "image": "hammer.jpeg"
+  },  {
+    "name": "Longfin Mako Shark",
+    "scientific_name": "Isurus Paucus",
+    "image": "mako.jpeg"
   }
 ]
-
