@@ -8,8 +8,8 @@ function Shark(props) {
   // console.log(image)
 
   return (
-    <div className="relative text-transparent bg-transparent group m-3">
-      <Link to={`/info/${id}`}>
+        <div className="relative text-transparent bg-transparent group mb-2  md:m-3">
+    <Link to={`/info/${id}`}>
         <img className="w-96" src={`/images/${image}`} alt={name} />
         <div className="flex flex-row items-center justify-between w-full group-hover:text-white group-hover:bg-black/70 absolute py-2 px-3 text-xl bottom-0 text-left">
           <p>{name}</p>

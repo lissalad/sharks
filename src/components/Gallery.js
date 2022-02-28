@@ -7,7 +7,7 @@ function Gallery() {
   console.log("hello")
 
   return (
-    <div className="flex flex-row p-4 flex-wrap justify-center items-center">
+    <div className="flex flex-row p-4 flex-wrap justify-center items-center w-full">
       {sharks.default.map(
         (shark, i) => {
           return <Shark id={i} name={shark.name} scientificName={shark.scientific_name} image={shark.image}/>
