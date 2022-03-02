@@ -8,7 +8,7 @@ function SharkInfo(props) {
   const info = "font-bold";
 
   return (
-    <div className="flex flex-col m-2 md:mx-9 md:my-12 md:flex-row md:justify-center md:space-x-5">
+    <div className="flex flex-col mt-28 m-2 md:mx-9 md:my-12 md:flex-row md:justify-center md:space-x-5">
       <img className="md:w-[500px]" src={`/images/${image}`} alt={name} />
       <div className="flex flex-col">
         <div className="flex flex-col mx-4 my-2 mb-3 md:items-center md:mb-6">

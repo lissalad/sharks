@@ -2,10 +2,6 @@ import { Link } from "react-router-dom";
 
 function Shark(props) {
   const { name, scientificName, image, id } = props;
-  // const name = "Blue Shark";
-  // const scientificName = "Prionace Glauca";
-  // const image = "blue.png";
-  // console.log(image)
 
   return (
         <div className="relative  group mb-2  md:m-3">
