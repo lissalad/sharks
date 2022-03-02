@@ -1,0 +1,68 @@
+  {
+    "name": "Bahamas Sawshark",
+    "scientific_name": "Pristiophorus Schroederi",
+    "image": "saw.jpeg",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  },  {
+    "name": "Kitefin Shark",
+    "scientific_name": "Dalatias Licha",
+    "image": "kitefin.jpeg",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  },  {
+    "name": "Angel Shark",
+    "scientific_name": "Squatina Squatina",
+    "image": "angel.jpeg",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  },  {
+    "name": "Scalloped Hammerhead Shark",
+    "scientific_name": "Sphyrna Lewini",
+    "image": "hammer.jpeg",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  },  {
+    "name": "Longfin Mako Shark",
+    "scientific_name": "Isurus Paucus",
+    "image": "mako.jpeg",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  }
+    {
+    "name": "Caribbean Reef Shark",
+    "scientific_name": "Carcharhinus Perezii",
+    "image": "caribbean.png",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  },
+  {
+    "name": "Pyjama Shark",
+    "scientific_name": "Poroderma Africanum",
+    "image": "pyjama.jpg",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  },
+  {
+    "name": "Lemon Shark",
+    "scientific_name": "Negaprion Brevirostris",
+    "image": "lemon.png",
+    "teeth": "",
+    "size": "",
+    "habitat": "",
+    "prey": ""
+  }

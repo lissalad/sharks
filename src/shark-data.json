@@ -1,84 +1,85 @@
 [
   {
-    "name": "Caribbean Reef Shark",
-    "scientific_name": "Carcharhinus Perezii",
-    "image": "caribbean.png"
-  },
-  {
     "name": "Blue Shark",
     "scientific_name": "Prionace Glauca",
-    "image": "blue.png"
+    "image": "blue.png",
+    "teeth": "saw edged",
+    "size": "5.6 - 7.2 feet, up to 13.1 feet",
+    "habitat": "tropical and temperate waters",
+    "prey": "fish, squid, crustaceans"
   },
   {
     "name": "Great White Shark",
     "scientific_name": "Carcharodon Carcharias",
-    "image": "great-white.jpeg"
+    "image": "great-white.jpeg",
+    "teeth": "hundreds of sharp teeth that can cut through bone, can grow over 6 inches long",
+    "size": "16-20 feet",
+    "habitat": "temperate coastal waters",
+    "prey": "fish, other sharks, seals, sea lions, dolphins, small whales"
   },
   {
     "name": "Bull Shark",
     "scientific_name": "Carcharhinus Leucas",
     "image": "bull.jpeg",
-    "diet": "mostly bony fishes, but if given the opportunity, will make a meal out of smaller sharks, turtles, birds, crustaceans, and garbage.",
-    "where": "worldwide in shallow tropical and subtropical coastal waters, can go into freshwater"
+    "teeth": "needle like teeth, 50 rows each with 7 teeth",
+    "size": "up to 11.5 feet",
+    "habitat": "western Atalantic, can swim up rivers",
+    "prey": "dolphins, stingrays, seals"
   },
   {
     "name": "Leopard Shark",
     "scientific_name": "Triakis Semifasciata",
-    "image": "leopard.jpeg"
-  },  {
+    "image": "leopard.jpeg",    
+    "teeth": "uses teeth to yank prey out of sand",
+    "size": "4-7 feet",
+    "habitat": "Pacific Coast",
+    "prey": "fish, octopus, clams, worms, crustacean"
+      },
+      {
     "name": "Horn Shark",
     "scientific_name": "Heterodontus Francisci",
-    "image": "horn.jpeg"
+    "image": "horn.jpeg",
+    "teeth": "molar like, sometimes stained purple from sea urchins",
+    "size": "28-47 inches",
+    "habitat": "kelp beds and rocks near shore",
+    "prey": "fish, crustaceans"
   },
   {
     "name": "Sand Tiger Shark",
     "scientific_name": "Carcharias Taurus",
-    "image": "sand.jpeg"
+    "image": "sand.jpeg",
+    "teeth": "rows of ragged teeth",
+    "size": "6.6-10.5 feet",
+    "habitat": "shallow tropical and temparate coastal waters",
+    "prey": "bony fish, other sharks, squid, crustaceans, skates, rays"
   },
-  {
-    "name": "Pyjama Shark",
-    "scientific_name": "Poroderma Africanum",
-    "image": "pyjama.jpg"
-  },
-  {
-    "name": "Lemon Shark",
-    "scientific_name": "Negaprion Brevirostris",
-    "image": "lemon.png"
-  },
+
   {
     "name": "Frilled Shark",
     "scientific_name": "Chlamydoselachus Anguineus",
-    "image": "frilled.jpeg"
+    "image": "frilled.jpeg",
+    "teeth": ">25 rows, 300 teeth in total",
+    "size": "3.2 to 4.9 feet, up to 6.4 feet",
+    "habitat": "deep sea",
+    "prey": "squid, smaller sharks, bony fish"
   },
   {
     "name": "Basking Shark",
     "scientific_name": "Cetorhinus Maximus",
-    "image": "basking.jpeg"
+    "image": "basking.jpeg",
+    "teeth": "tiny teeth",
+    "size": "up to ~36 feet",
+    "habitat": "temperate coastal waters in Atlantic and Pacific",
+    "prey": "plankton"
   },
   {
     "name": "Whale Shark",
     "scientific_name": "Rhincodon Typus",
-    "image": "whale.jpeg"
-  },
-  {
-    "name": "Bahamas Sawshark",
-    "scientific_name": "Pristiophorus Schroederi",
-    "image": "saw.jpeg"
-  },  {
-    "name": "Kitefin Shark",
-    "scientific_name": "Dalatias Licha",
-    "image": "kitefin.jpeg"
-  },  {
-    "name": "Angel Shark",
-    "scientific_name": "Squatina Squatina",
-    "image": "angel.jpeg"
-  },  {
-    "name": "Scalloped Hammerhead Shark",
-    "scientific_name": "Sphyrna Lewini",
-    "image": "hammer.jpeg"
-  },  {
-    "name": "Longfin Mako Shark",
-    "scientific_name": "Isurus Paucus",
-    "image": "mako.jpeg"
+    "image": "whale.jpeg",
+    "teeth": "many layers of tiny raspy teeth",
+    "size": "average ~39 feet, up to 59 feet",
+    "habitat": "tropical waters",
+    "prey": "plankton"
   }
+
 ]

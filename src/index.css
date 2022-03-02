@@ -15,3 +15,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title {
+  font-family: "shark-font";
+}
+
+p, h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #dde5fa;
+}
+
+h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing:0;
+  color: #dde5fa;
+}
+
+.fish {
+  font-family: "fish";
+}
+html {
+  background-color:rgba(13, 72, 150, 0.774);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("/public/fonts/regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "fish";
+  src: url("/public/fonts/fish.woff") format("woff");
+}
+
+@font-face {
+  font-family: "shark-font";
+  src: url("/public/fonts/shark-font.woff") format("woff");
+}
