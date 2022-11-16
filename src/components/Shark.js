@@ -4,14 +4,12 @@ function Shark(props) {
   const { name, scientificName, image, id } = props;
 
   return (
-        <div className="relative  group mb-2  md:m-3">
-    <Link to={`/info/${id}`}>
-        <img className="w-96" src={`/images/${image}`} alt={name} />
-        <div className="flex md:invisible md:group-hover:visible flex-row items-center bg-black/70 justify-between w-full text-white absolute py-2 px-3 text-xl bottom-0 text-left">
-          <h1>{name}</h1>
-          <p className="text-xs group-hover:text-white/80 whitespace-nowrap md:text-sm ">
-            {scientificName}
-          </p>
+    <div className="relative group ">
+      <Link to={`/info/${id}`}>
+        <img className="shark-cell " src={`/images/${image}`} alt={name} />
+        <div className="flex flex-row items-center space-x-3 absolute py-2 px-3 flex-wrap bottom-0 text-xl w-full bg-gray-900/40 backdrop-blur-lg md:hidden group-hover:flex transition-all duration-300">
+          <h1 className="text-3xl">{name}</h1>
+          <p className="text-sm italic">{scientificName}</p>
         </div>
       </Link>
     </div>
