@@ -23,19 +23,19 @@
     "image": "bull.jpeg",
     "teeth": "needle like teeth, 50 rows each with 7 teeth",
     "size": "up to 11.5 feet",
-    "habitat": "western Atalantic, can swim up rivers",
+    "habitat": "western Atlantic, can swim up rivers",
     "prey": "dolphins, stingrays, seals"
   },
   {
     "name": "Leopard Shark",
     "scientific_name": "Triakis Semifasciata",
-    "image": "leopard.jpeg",    
+    "image": "leopard.jpeg",
     "teeth": "uses teeth to yank prey out of sand",
     "size": "4-7 feet",
     "habitat": "Pacific Coast",
     "prey": "fish, octopus, clams, worms, crustacean"
-      },
-      {
+  },
+  {
     "name": "Horn Shark",
     "scientific_name": "Heterodontus Francisci",
     "image": "horn.jpeg",
@@ -81,5 +81,4 @@
     "habitat": "tropical waters",
     "prey": "plankton"
   }
-
 ]
