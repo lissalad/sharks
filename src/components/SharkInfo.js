@@ -8,16 +8,21 @@ function SharkInfo(props) {
   const info = "font-bold";
 
   return (
-    <div className="shark-info">
+    <div className="shark-info md:mt-3">
       {/* image */}
-      <img className="shark-info-image" src={`/images/${image}`} alt={name} />
+      <img
+        className="shark-info-image rounded-lg shadow-xl lg:mr-10"
+        src={`/images/${image}`}
+        alt={name}
+      />
+
       {/* text info */}
-      <div className="text-info space-y-9 mx-9">
-        <div className="flex flex-col my-2 mb-3 space-y-2">
-          <h1 className="text-3xl md:text-5xl">{name}</h1>
-          <h2 className="text-md italic">{scientific_name}</h2>
+      <div className="text-info">
+        <div className="flex flex-col my-2 pb-5 space-y-1 text-center border-b border-gray-400/70">
+          <h1 className="text-5xl lg:text-3xl">{name}</h1>
+          <h2 className="text-xl italic">{scientific_name}</h2>
         </div>
-        <div className="my-3 space-y-4 text-lg">
+        <div className="mt-7 space-y-4 text-lg lg:text-sm">
           <p>
             <span className={info}>Size:</span> {size}
           </p>

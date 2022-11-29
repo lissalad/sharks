@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
+import Bubbles from "./components/Bubbles";
 
 function App() {
   return (

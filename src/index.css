@@ -10,19 +10,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:aliceblue;
   /* @apply bg-gradient-to-b from-blue-700/20 to-stone-900/30; */
 
 }
 
 html {
-  background-color:rgb(21, 21, 21);
+  @apply bg-gray-800 text-gray-50;
 }
 
 main {
-  padding-top: 130px;
+  @apply px-4 pt-[65px] pb-[30px];
   max-width: 1400px;
   margin: 0 auto;
-transition-timing-function: ease-in-out ;}
+  }
 
 header {
   width: 1400px;
@@ -44,7 +45,7 @@ header {
   }
 
   main {
-    padding-top: 96px;
+    padding-top: 70px;
   }
 }
 
@@ -54,7 +55,19 @@ header {
   }
 
   .shark-name {
-    @apply flex flex-row items-center space-x-3 absolute py-2 px-3 flex-wrap bottom-0 text-xl w-full  backdrop-blur-lg md:hidden group-hover:flex transition-all duration-300;
+    @apply flex bottom-0 block flex-row items-center space-x-3 absolute py-2 px-3 flex-wrap bottom-0 text-xl w-full backdrop-blur-lg md:hidden group-hover:flex transition-all duration-300;
+  }
+}
+
+@media (min-width: 1900px) {
+  main {
+    padding: 130px 250px;
+    max-width: max-content;
+  }
+
+  header {
+    padding: 0px 250px;
+    width: fit-content;
   }
 }
 
@@ -83,8 +96,6 @@ header {
 }
 
 .shark-card:hover > a > .shark-name {
-  /* animation: rise-in 500ms ease-in-out; */
-  /* animation-fill-mode: forwards; */
   bottom: 0;
 }
 
@@ -93,21 +104,21 @@ header {
 .shark-info {
   display: flex;
   flex-direction: row;
-  /*  */
   justify-content: between;
   
 }
 
 .shark-info-image {
-  width: 60vw;
+  width: 50vw;
 }
 
 .text-info {
+
 }
 
 @media (max-width: 950px) {
   .shark-info {
-    gap: 40px;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -117,15 +128,36 @@ header {
   }
 
   .text-info {
-    width: 100vw;
+    width: fit-content;
+    align-items: center;
   }
 }
 
+/* ----------- bubble animation ------------ */
+#bubbles {
+  position: absolute;
+  bottom: -200px;
+  animation-name: rise;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 
+#bubbles > div {
+  background-color: rgba(240, 248, 255, 0.298);
+  border-radius: 50%;
+  border: 1px solid rgba(240, 248, 255, 0.247);
+  height: 50px;
+  width: 50px;
+}
 
-
-
-
+@keyframes rise {
+  0% {
+    bottom: -200px;
+  }
+  100% {
+    top: -200px;
+  }
+}
 
 .title {
   font-family: "shark-font";

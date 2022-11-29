@@ -4,7 +4,7 @@ function Shark(props) {
   const { name, scientificName, image, id } = props;
 
   return (
-    <div className="shark-card">
+    <div className="shark-card rounded-lg shadow-xl">
       <Link to={`/info/${id}`}>
         <img className="shark-image" src={`/images/${image}`} alt={name} />
         <div className="shark-name">
@@ -15,4 +15,5 @@ function Shark(props) {
     </div>
   );
 }
+
 export default Shark;
